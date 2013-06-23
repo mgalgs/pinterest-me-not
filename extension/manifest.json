@@ -4,6 +4,12 @@
     ,"name": "Pinterest-me-not"
     ,"description": "This extension removes the nags from Pinterest for non-logged-in users."
     ,"version": "1.0"
+    ,"icons": {
+        "16": "pinterest-me-not_icon_16.png"
+        ,"48": "pinterest-me-not_icon_48.png"
+        ,"128": "pinterest-me-not_icon_128.png"
+    }
+
 
     ,"content_scripts": [{
         "matches": ["*://pinterest.com/*"]
