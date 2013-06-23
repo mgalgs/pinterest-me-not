@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2
+
+    ,"name": "Pinterest-me-not"
+    ,"description": "This extension removes the nags from Pinterest for non-logged-in users."
+    ,"version": "1.0"
+
+    ,"content_scripts": [{
+        "matches": ["*://pinterest.com/*"]
+        ,"js": ["jquery.js", "pinterest-me-not.js"]
+        ,"run_at": "document_end"
+    }]
+}
